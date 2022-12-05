@@ -1,0 +1,555 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* INDEX STYLE
+*
+***************************************************************************/
+
+
+/* #MAIN */
+
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+#main .mainImage img {
+    width: 100%;
+}
+
+#main .areaText {
+    position: absolute;
+    text-align: center;
+    top: 53.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main .areaText .logo {
+    width: 330px;
+    margin: 0 auto 41px;
+}
+
+#main .areaText .logo img {
+    width: 100%;
+}
+
+#main .areaText .borderText {
+    width: 560px;
+    font-size: 27px;
+    font-weight: bold;
+    border: 1px solid #41220e;
+    text-align: center;
+    margin: 0 auto 8px;
+    padding: 11px 0px 8px 9px;
+    letter-spacing: -2.6px;
+    transform: translateX(-4px);
+}
+
+#main .areaText .textMain {
+    font-size: 32px;
+    letter-spacing: -1.6px;
+    line-height: 1.7;
+}
+
+
+/* CONTENT */
+
+
+/* areaFunction */
+
+.areaFunction {
+    text-align: center;
+    padding: 65px 0 67px;
+}
+
+.areaFunction .imageFunction {
+    width: 640px;
+    margin: 36px auto 34px;
+}
+
+.areaFunction .imageFunction img {
+    width: 100%;
+}
+
+.areaFunction .desFunction {
+    font-size: 32px;
+    letter-spacing: -3.3px;
+}
+
+
+/* areaBuilding */
+
+.areaBuilding {
+    background: #ebebeb;
+    padding: 64px 0 74px;
+    text-align: center;
+}
+
+.areaBuilding .listBuilding {
+    display: flex;
+    margin: 45px 0 37px;
+}
+
+.areaBuilding .listBuilding li {
+    width: calc(100% / 4);
+    margin-right: 26px;
+}
+
+.areaBuilding .listBuilding li:last-child {
+    margin-right: 0;
+}
+
+.areaBuilding .imageBuilding img {
+    width: 100%;
+}
+
+.areaBuilding .desImage {
+    background: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px 0 30px;
+}
+
+.areaBuilding .desBuilding {
+    font-size: 32px;
+    letter-spacing: -3.2px;
+    line-height: 1.7;
+}
+
+
+/* areaCompare */
+
+.areaCompare {
+    padding: 65px 0 80px 0;
+    text-align: center;
+}
+
+.areaCompare .listCompare {
+    display: flex;
+    margin-top: 44px;
+}
+
+.areaCompare .listCompare li {
+    width: calc(100% / 4);
+    background: #ebebeb;
+    margin-right: 25px;
+    padding: 25px 0 33px;
+}
+
+.areaCompare .listCompare li:last-child {
+    margin-right: 0;
+}
+
+.areaCompare .listCompare li .iconCompare {
+    margin-bottom: 10px;
+}
+
+.areaCompare .listCompare li .desCompare {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* =================areaProduct================= */
+
+.areaProduct {
+    background: #ebebeb;
+}
+
+.areaProduct .productContent:first-child {
+    margin-top: 0;
+}
+
+.areaProduct .productContent {
+    display: flex;
+    margin-top: 79px;
+}
+
+.areaProduct .productContent:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.areaProduct .productContent:nth-child(even) .productDetails {
+    left: 73px;
+}
+
+.areaProduct .productContent:nth-child(even) .productText {
+    margin-top: 33px;
+    line-height: 2;
+}
+
+.areaProduct .productContent:nth-child(even) .productBox {
+    margin-top: 53px;
+}
+
+.areaProduct .productContent .productPhoto {
+    width: 50.1%;
+}
+
+.areaProduct .productContent .productPhoto img {
+    width: 100%;
+}
+
+.areaProduct .productDetails {
+    position: relative;
+    background: #fff;
+    width: 640px;
+    margin-top: 80px;
+    margin-left: -82px;
+    padding: 59px 71px 30px 80px;
+    min-height: 543px;
+}
+
+.areaProduct .productDetails .productTitle {
+    font-size: 28px;
+    letter-spacing: -1.1px;
+    font-weight: 500;
+}
+
+.areaProduct .productContent:first-child .productBox {
+    margin-top: 82px;
+}
+
+.areaProduct .productDetails .productText {
+    letter-spacing: -0.9px;
+    margin-top: 32px;
+    line-height: 2;
+}
+
+.areaProduct .productDetails .productText span {
+    display: block;
+    color: #b81c22;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.areaProduct .productBox {
+    position: relative;
+    border: 1px solid #b81c22;
+    padding: 24px 0 25px 30px;
+    margin-top: 54px;
+}
+
+.areaProduct .productBox .boxContent {
+    position: absolute;
+    top: -20px;
+    left: 21px;
+    background: #fff;
+    padding: 0 9px;
+}
+
+.areaProduct .productBox .boxContent .boxTitle {
+    position: relative;
+    font-size: 24px;
+    color: #b81c22;
+    letter-spacing: -3.3px;
+    font-weight: normal;
+}
+
+.areaProduct .productBox .boxContent .boxTitle:before {
+    content: "";
+    position: absolute;
+    top: 36%;
+    right: -31px;
+    transform: translateY(-50%);
+    background: url(../images/index/icon-product.svg) no-repeat;
+    background-size: cover;
+    width: 29px;
+    height: 43px;
+}
+
+.areaProduct .productBox .boxText {
+    line-height: 2;
+}
+
+
+/* areaQuestion */
+
+
+.areaQuestions {
+    margin-top: 76px;
+}
+
+.areaQuestions .questionsDetails {
+    margin-top: 37px;
+}
+
+.areaQuestions .questionsDetails .questionItem {
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 9px;
+    margin-top: 26px;
+}
+
+.areaQuestions .questionsDetails .questionItem .questionAsk {
+    position: relative;
+    padding: 39px 87px 42px 146px;
+}
+
+.areaQuestions .questionsDetails .questionItem .questionAsk:before {
+    content: "";
+    position: absolute;
+    top: 42px;
+    left: 79px;
+    width: 32.5px;
+    height: 30px;
+    background: url(../images/index/icon-q.svg) no-repeat;
+    background-size: 100%;
+}
+
+.areaQuestions .questionsDetails .questionItem .questionAsk a {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    color: #41210e;
+    letter-spacing: -0.2px;
+    padding-right: 50px;
+}
+
+.areaQuestions .questionsDetails .questionItem .questionAsk a:before {
+    content: "";
+    position: absolute;
+    top: 55%;
+    right: 2px;
+    width: 21px;
+    height: 12px;
+    background: url(../images/index/icon-show.svg) no-repeat;
+    transform: translateY(-50%) rotate(-90deg);
+    transition: all 0.5s;
+    background-size: cover;
+}
+
+.areaQuestions .questionItem.show .questionAsk .rotateIcon:before {
+    transform: rotate(0deg);
+    top: 50%;
+}
+
+.areaQuestions .questionsDetails .questionItem .questionContent {
+    display: none;
+    padding: 28px 64px;
+    background: #fff;
+}
+
+.areaQuestions .questionsDetails .questionText {
+    position: relative;
+    padding-left: 73px;
+    line-height: 2;
+    letter-spacing: -0.7px;
+}
+
+.areaQuestions .questionsDetails .questionText:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 14px;
+    width: 33px;
+    height: 28px;
+    background: url(../images/index/icon-a.svg) no-repeat;
+    background-size: 100%;
+}
+
+@media (min-width: 1400px) {
+    .areaProduct .productDetails {
+        height: 38vw;
+        min-height: auto;
+        width: 46.4%;
+        padding: 4.3% 62px 0 80px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1350px) {
+    .areaProduct .productDetails {
+        width: 46.4%;
+        padding: 4.3% 62px 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* #MAIN */
+    #main {
+        height: 450px;
+    }
+    #main .mainImage {
+        height: 100%;
+    }
+    #main .mainImage img {
+        object-fit: cover;
+        height: 100%;
+    }
+    #main .areaText {
+        top: 50%;
+    }
+    #main .areaText .inner {
+        padding: 0;
+    }
+    #main .areaText .logo {
+        width: 70%;
+        margin: 0 auto 20px;
+    }
+    #main .areaText .borderText {
+        width: 320px;
+        transform: unset;
+        font-size: 16px;
+        padding: 11px 10px 8px;
+        letter-spacing: 0;
+    }
+    #main .areaText .textMain {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    /* areaFunction  */
+    .areaFunction {
+        padding: 30px 0;
+    }
+    .areaFunction .imageFunction {
+        width: 100%;
+        margin: 20px auto 20px;
+        max-width: 520px;
+    }
+    .areaFunction .desFunction {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    /* areaBuilding */
+    .areaBuilding {
+        padding: 30px 0;
+    }
+    .areaBuilding .listBuilding {
+        flex-wrap: wrap;
+    }
+    .areaBuilding .listBuilding li {
+        width: calc(100% / 2 - 5px);
+        margin: 0 10px 10px 0;
+    }
+    .areaBuilding .listBuilding li:nth-child(2n) {
+        margin-right: 0;
+    }
+    .areaBuilding .desBuilding {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    /* areaCompare */
+    .areaCompare {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .areaCompare .listCompare {
+        flex-wrap: wrap;
+    }
+    .areaCompare .listCompare li {
+        width: calc(100% / 2 - 5px);
+        margin: 0 10px 10px 0;
+        padding: 25px 0 33px;
+    }
+    .areaCompare .listCompare li:nth-child(2n) {
+        margin-right: 0;
+    }
+    /* ======= areaProduct ======== */
+    .areaProduct .productContent {
+        flex-direction: column;
+    }
+    .areaProduct .productContent .productPhoto {
+        width: 100%;
+    }
+    .areaProduct .productDetails .productTitle {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .areaProduct .productDetails {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 30px 4%;
+        min-height: auto;
+    }
+    .areaProduct .productBox {
+        width: 100%;
+        padding: 10px 18px;
+    }
+    .areaProduct .productContent:nth-child(even) {
+        flex-direction: column;
+    }
+    .areaProduct .productContent:nth-child(even) .productDetails {
+        left: 0;
+    }
+    .areaProduct .productDetails .productText,
+    .areaProduct .productContent:nth-child(even) .productText,
+    .areaProduct .productContent:first-child .productText {
+        margin-top: 28px;
+        line-height: 1.6;
+        letter-spacing: 0;
+    }
+    .areaProduct .productContent:first-child .productBox {
+        margin-top: 50px;
+    }
+    .areaProduct .productBox .boxContent .boxTitle {
+        font-size: 18px;
+    }
+    .areaQuestions .questionsDetails .questionItem .questionAsk {
+        padding: 10px 17px 10px 52px;
+    }
+    .areaQuestions .questionsDetails .questionItem .questionAsk a {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .areaQuestions .questionsDetails .questionItem .questionAsk:before {
+        left: 11px;
+        top: 13px;
+        width: 25px;
+        height: 24px;
+    }
+    .areaQuestions .questionsDetails .questionItem .questionAsk a:before {
+        right: -7px;
+        width: 14px;
+        height: 8px;
+    }
+    .areaQuestions .questionsDetails .questionItem .questionContent {
+        padding: 15px 0;
+    }
+    .areaQuestions .questionsDetails .questionText:before {
+        width: 25px;
+        height: 24px;
+    }
+    .areaQuestions .questionsDetails .questionText {
+        padding-left: 55px;
+        letter-spacing: 0;
+    }
+    .areaQuestions {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    /* areaFunction */
+    .areaFunction {
+        text-align: center;
+        padding: 25px 0;
+    }
+    /* areaBuilding */
+    .areaBuilding .listBuilding {
+        flex-wrap: wrap;
+    }
+    .areaBuilding {
+        padding: 25px 0;
+    }
+    .areaBuilding .listBuilding li {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+    .areaBuilding .listBuilding li:last-child {
+        margin-bottom: 0;
+    }
+    /* areaCompare */
+    .areaCompare {
+        padding: 25px 0;
+    }
+    .areaCompare .listCompare li {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+    .areaCompare .listCompare li:last-child {
+        margin-bottom: 0;
+    }
+}
